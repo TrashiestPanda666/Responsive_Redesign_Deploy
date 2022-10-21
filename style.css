@@ -1,0 +1,32 @@
+.body{
+    background-image: url("Resources/Paper_background.png");
+}
+
+.Title p{
+    font-weight: bolder;
+    font-size: xx-large;
+    text-align: center;
+}
+
+.Section{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url("Resources/Paper_background.png");
+}
+
+.Section img{
+    width: 50%;
+    height: 50%;
+}
+
+.Section p{
+    width: 80%;
+    height: 80%;
+}
+
+.diagram-container{
+    display: flex;
+
+    align-items: center;
+    width: 50%;
+    height: 50%;
+}

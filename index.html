@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML 5 Boilerplate</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+	<script src="index.js"></script>
+    <div class="Title">
+      <p>Responsive Redesign</p>
+    </div>
+
+    <div class="Section">
+      <h1>Part 1: Identifying the Problem</h1>
+      <p>
+        Please go to <a href="https://njavm.org/displays/">This Link.</a> This will take you to the 
+        original website.
+      </p>
+      <div>
+        <img src="Resources/Original_Website.PNG"/>
+      </div>
+      When I came across this page, I was first struck by the simplicity of its contents. 
+      While simplicity is good for displaying important information, I thought that this was not 
+      the best approach for a “Displays” page for a museum website. 
+      In my conceptual model of this page, I think a “Displays” page is meant to highlight some of 
+      the most popular or impressive items in the museum. However, the current page only has blocks 
+      of text listing the names of the featured items. 
+      </p>
+      <p>
+        The problem with this is twofold. Firstly, the names listed mean virtually nothing to visitors. These displays are rather obscure and not well-known,  which means that they will not be recognizable by name to anyone who is unfamiliar with aircraft or ordnances. This ultimately impacts both the memorability and learnability of the page. Second, I think it’s rather unintuitive that this page displays the entire catalog of the museum’s contents. I think it’s rather implausible for a single page on a website to display everything the museum has to offer. Rather, my intuition says that a museum page should display some highlights, not the entirety of what they have to offer. 
+      The last thing I noticed is that this webpage is not efficient to navigate at all. In order to browse through each of the entries, the user has to click on each name and go to a separate page to see the displays. This makes browsing through the displays very difficult. 
+      </p>
+      <p>
+        Overall, the main problem that I have with this page is that it is a “Displays” page that doesn’t really display much of anything. It does not match my conceptual model of what a page like this is supposed to look like.    
+      </p>
+      <h2>
+        Webaim WAVE
+      </h2>
+      <p>
+        The page had a broken ARIA reference, no h1 header, and some adjacent links goes to the same url. I took note of all of these and agree with the website’s analysis about its accessibility. All of these issues impact learnability, since if there were to be an error, the user would not be able to learn the page’s functionalities. I tried my best to address these issues in my design. 
+      </p>
+      </div>
+
+      <div class="Section">
+        <h1>Part 2: Lo-Fi Diagrams</h1>
+        <div class="diagram-container">
+          <img src="Resources/Lo-Fi_Desktop.PNG"/>
+          <img src="Resources/Lo-Fi_Ipad.PNG"/>
+          <img src="Resources/Lo-Fi_Phone.PNG"/>
+        </div>
+        <h3>Fixing the Problems:</h3>
+        <p>
+          I redesigned the webpage to not include all of the available displays, but rather just some of the highlight displays that are the most popular or important. 
+        </p>
+        <p>I also addressed the issues with the unclear tabs by including:</p>
+        <ul>
+          <li>Pictures that show what the display actually looks like</li>
+          <li>A description of each of the featured displays</li>
+          <li>Making the displays into a grid separated into sections to more clearly 
+            differentiate between aircrafts and other categories</li>
+        </ul>
+      </div>
+
+      <div class="Section">
+        <h1>Part 3: Hi-Fi Diagrams</h1>
+        <div class="diagram-container">
+          <img src="Resources/Visual_style_guide.PNG"/>
+          <img src="Resources/Hi-Fi_Desktop.PNG"/>
+          <img src="Resources/Hi-Fi_iPad.PNG"/>
+          <img src="Resources/Hi-Fi_Phone.PNG"/>
+        </div>
+        <p>
+          The main thing that I wanted to acheive with the Hi-Fi design was to completely overhaul the 
+          visual aspects of the orignal website. I decided to add a banner to the top of the display page
+          both as a way to indicate where the user is currently as well as adding some visual flair to the page.
+          For the rest of the page, the main display is in a grid format. I felt that this was a better way of
+          displaying features in a compact, yet simple fashion. Finally, the last function I added was the 
+          search bar. As I've mentioned earlier, I wanted this page to be more of a highlight reel of what the 
+          museum has to offer instead of a full catalog. As such, if the user wants to search for something
+          that is not currently displayed on the page, the search bar would ideally take them to another page that 
+          has the relevant displays.
+        </p>
+      </div>
+      
+      <div class="Section">
+        <h1>Part 4: Finally, the Full Website!</h1>
+        <p>
+          Here is the link to the <a href="https://trashiestpanda666.github.io/Responsive_Redesign/">Final Website.</a> Keep in mind that most of the buttons are nonfunctional,
+          but the features described in both the low-fi and hi-fi mockups are all implemented. This 
+          includes changes to elements when they are hovered and being able to type in the search bar. 
+          I personally do not know anything about planes or ordnances, so I used placeholder images and 
+          texts for all of the displays. If there are any aircraft fanatics out there, please feel free to
+          tell me more about what the museum is actually displaying!
+        </p>
+      </div>
+  </body>
+</html>
